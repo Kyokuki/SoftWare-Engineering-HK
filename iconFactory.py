@@ -21,7 +21,7 @@ class PokerIconFactory(AbstractIconFactory):
         return "♠"
 
 
-class MusicIconFactory(AbstractIconFactory):
+class ChessIconFactory(AbstractIconFactory):
 
     def create_container_icon(self):
         return "♜"

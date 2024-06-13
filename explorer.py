@@ -24,8 +24,8 @@ class FunnyJsonExplorer:
     def set_icon_factory(self):
         if self.explorer_icon == "poker":
             self.icon_factory = iconFactory.PokerIconFactory
-        elif self.explorer_icon == "music":
-            self.icon_factory = iconFactory.MusicIconFactory
+        elif self.explorer_icon == "chess":
+            self.icon_factory = iconFactory.ChessIconFactory
 
     def build(self):
         self.set_style_factory()

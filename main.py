@@ -11,7 +11,7 @@ def main():
                         help="JSON file path")
     parser.add_argument('-s', '--style', type=str, choices=['tree', 'rectangle'], default='tree',
                         help="Style: 'tree' or 'rectangle'")
-    parser.add_argument('-i', '--icon', type=str, choices=['poker', 'chess'], default='poker',
+    parser.add_argument('-i', '--icon', type=str, choices=['poker', 'chess'], default='chess',
                         help="Icon family: 'family1' or 'family2'")
     args = parser.parse_args()
 
