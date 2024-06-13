@@ -1,6 +1,7 @@
 import argparse
 import json
-from fje import FunnyJsonExplorer
+from explorer import FunnyJsonExplorer
+
 
 def main():
 
@@ -10,7 +11,7 @@ def main():
                         help="JSON file path")
     parser.add_argument('-s', '--style', type=str, choices=['tree', 'rectangle'], default='tree',
                         help="Style: 'tree' or 'rectangle'")
-    parser.add_argument('-i', '--icon', type=str, choices=['family1', 'family2'], default='family1',
+    parser.add_argument('-i', '--icon', type=str, choices=['poker', 'chess'], default='poker',
                         help="Icon family: 'family1' or 'family2'")
     args = parser.parse_args()
 
@@ -19,9 +20,9 @@ def main():
         json_data = json.load(file)
 
     # 构建FJE，并实现可视化
-    explorer = FunnyJsonExplorer(args.style, args.icon)
-    explorer.json_load(json_data)
-    explorer.json_show()
+    explorer = FunnyJsonExplorer(args.style, args.icon, json_data)
+    explorer.build()
+    explorer.show()
 
 
 if __name__ == '__main__':
