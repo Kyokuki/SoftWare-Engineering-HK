@@ -20,4 +20,19 @@
 
 <img src="assets/result_tree_chess.png" alt="结果图：树状棋盘" width="400"> <img src="assets/result_tree_poker.png" alt="结果图：树状扑克" width="400">
 
+## UML类图
+
+
+## 设计模式
+
+### 抽象工厂
+
+### 组合模式
+
+### 建造者模式
+
+### 迭代器模式
+
+### 策略模式
+
 
