@@ -14,7 +14,7 @@
 
 ## 输出展示
 
-![image-result_rectangle_chess](assets/result_rectangle_chess.png)
+![image-result_rectangle_chess width="300" height="200"](assets/result_rectangle_chess.png )
 
 ![image-result_rectangle_poker](assets/result_rectangle_poker.png)
 
