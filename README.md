@@ -28,12 +28,22 @@
 
 ### 抽象工厂
 
+<img src="assets/mode_factory.png" alt="抽象工厂">
+
 ### 组合模式
+
+<img src="assets/mode_composite.png" alt="组合模式">
 
 ### 建造者模式
 
+<img src="assets/mode_builder.png" alt="建造者模式">
+
 ### 迭代器模式
 
+<img src="assets/mode_iterator.png" alt="迭代器模式">
+
 ### 策略模式
+
+<img src="assets/mode_strategy.png" alt="策略模式">
 
 
