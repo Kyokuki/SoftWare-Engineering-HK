@@ -7,7 +7,7 @@ def main():
 
     # 指令解析
     parser = argparse.ArgumentParser(description="Funny JSON Explorer (FJE)")
-    parser.add_argument('-f', '--file', type=str, default="D:/个人/软件工程/Funny_JSON_Explorer_2/json/fruit.json",
+    parser.add_argument('-f', '--file', type=str, default="./json/fruit.json",
                         help="JSON file path")
     parser.add_argument('-s', '--style', type=str, choices=['tree', 'rectangle'], default='rectangle',
                         help="Style: 'tree' or 'rectangle'")
