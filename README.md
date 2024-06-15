@@ -22,6 +22,7 @@
 
 ## UML类图
 
+<img src="assets/UML.png" alt="UML类图" width="800">
 
 ## 设计模式
 
