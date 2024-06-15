@@ -14,10 +14,10 @@
 
 ## 输出展示
 
-![image-result_rectangle_chess width="300" height="200"](assets/result_rectangle_chess.png )
+<img src="assets/result_rectangle_chess.png" alt="结果图：矩形棋盘" width="300">
 
-![image-result_rectangle_poker](assets/result_rectangle_poker.png)
+<img src="assets/result_rectangle_poker.png" alt="结果图：矩形扑克" width="300">
 
-![image-result_tree_chess](assets/result_tree_chess.png)
+<img src="assets/result_tree_chess.png" alt="结果图：树状棋盘" width="300">
 
-![image-result_tree_poker](assets/result_tree_poker.png)
+<img src="assets/result_tree_poker.png" alt="结果图：树状扑克" width="300">
